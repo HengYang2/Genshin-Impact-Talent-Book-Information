@@ -3,6 +3,18 @@ h1 {
 
 }
 
-div {
+.tm {
+    background-color: aqua;
+}
+
+.wm {
+    background-color: aqua;
+}
+
+.char {
+    background-color: aqua;
+}
+
+.weap {
     background-color: aqua;
 }
