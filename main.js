@@ -4,6 +4,8 @@ function testFun() {
 }
 function populator(type, array) {
 
+    let destination = document.getElementById(type)
+
     //clear type box
 
     //Populate type box
@@ -12,7 +14,7 @@ function populator(type, array) {
         li.setAttribute('onclick', 'testFun()');
         li.innerHTML = obj;
         
-        document.body.append(li);
+        destination.append(li);
     }
 
  
