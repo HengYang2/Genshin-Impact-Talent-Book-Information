@@ -4,23 +4,22 @@ function testFun() {
 }
 function populator(type, array) {
 
-    let destination = document.getElementById(type)
+    let destination = document.getElementById(type);
 
     //clear type box
+    destination.replaceChildren();
 
     //Populate type box
     for (const obj of array) {
         let li = document.createElement('li');
         li.setAttribute('onclick', 'testFun()');
+        li.setAttribute('id', 'item');
         li.innerHTML = obj;
         
         destination.append(li);
     }
-
- 
-
-
 }
+
 //tm, wm, char, weap
 function popTalentMaterial(day) {
     let tmArray = [];
@@ -90,6 +89,10 @@ function popWeaponMaterial (day) {
     }
 }
 
+function clearData() {
+
+
+}
 
 
 function Monday() {
