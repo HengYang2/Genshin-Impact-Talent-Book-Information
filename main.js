@@ -59,31 +59,31 @@ function popWeaponMaterial (day) {
     let wmArray = [];
     switch (day) {
         case 'monday':
-            wmArray = [];
+            wmArray = [ 'Tile of Decarabians Tower', 'Luminous Sands from Guyun', 'Coral Branch of a Distant Sea', 'Copper Talisman of the Forest Dew'];
             populator('wm', wmArray);
             break;
         case 'tuesday':
-            wmArray = [];
+            wmArray = [ 'Boreal Wolfs Milk Tooth', 'Mist Veiled Lead Elixir', 'Narukamis Wisdom', 'Oasis Gardens Reminiscence'];
             populator('wm', wmArray);
             break;
         case 'wednesday':
-            wmArray = [];
+            wmArray = [ 'Fetters of the Dandelion Gladiator', 'Grain of Aerosiderite', 'Mask of the Wicked Lieutenant', 'Echo of Scorching Might'];
             populator('wm', wmArray);
             break;
         case 'thursday':
-            wmArray = [];
+            wmArray = [ 'Tile of Decarabians Tower', 'Luminous Sands from Guyun', 'Coral Branch of a Distant Sea', 'Copper Talisman of the Forest Dew'];
             populator('wm', wmArray);
             break;
         case 'friday':
-            wmArray = [];
+            wmArray = [ 'Boreal Wolfs Milk Tooth', 'Mist Veiled Lead Elixir', 'Narukamis Wisdom', 'Oasis Gardens Reminiscence'];
             populator('wm', wmArray);
             break;
         case 'saturday':
-            wmArray = [];
+            wmArray = [ 'Fetters of the Dandelion Gladiator', 'Grain of Aerosiderite', 'Mask of the Wicked Lieutenant', 'Echo of Scorching Might'];
             populator('wm', wmArray);
             break;
         case 'sunday':
-            wmArray = [];
+            wmArray = [ 'Tile of Decarabians Tower', 'Luminous Sands from Guyun', 'Coral Branch of a Distant Sea', 'Copper Talisman of the Forest Dew', 'Boreal Wolfs Milk Tooth', 'Mist Veiled Lead Elixir', 'Narukamis Wisdom', 'Oasis Gardens Reminiscence', 'Fetters of the Dandelion Gladiator', 'Grain of Aerosiderite', 'Mask of the Wicked Lieutenant', 'Echo of Scorching Might'];
             populator('wm', wmArray);
             break;
     }
